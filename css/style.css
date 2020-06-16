@@ -10,7 +10,7 @@ li, a, button {
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 16px;
-    color: #000;
+    /* color: #000; */
     text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ body {
   margin: 0;
   text-align: center;
   background: #fff;
-  color: #3d3d3d;
+  /* color: #fff; */
   font-size: 16px;
   line-height: 1.7;
   font-family: "Raleway";
@@ -38,6 +38,7 @@ header {
     cursor: pointer;
     margin-right: auto;
     font-style: italic;
+    color: grey;
 }
 
 .nav__links {
@@ -60,7 +61,7 @@ header {
 /* SPLASH */
 .splash {
     height: 100vh;
-    background: url("https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
+    background: url("https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; 
@@ -68,11 +69,10 @@ header {
   
   .splash i {
     font-size: 30px;
-    background: #ff5e57;
     width: 60px;
     height: 60px;
     line-height: 50px;
-    color: #fff;
+    color: grey;
     border-radius: 50%; }
   
   .splash-inner {
@@ -86,7 +86,8 @@ header {
   h1 {
     position: relative;
     font-size: 55px;
-    margin: 10px auto; 
+    margin: 10px auto;
+    color: #fff; 
 }
 
   h3 {
@@ -94,10 +95,11 @@ header {
     font-size: 35px;
     font-weight: 100;
     font-style: italic;
+    color: #fff;
 }
   
   .page-title {
-    color: #fff;
+    color: grey;
     font-size: 60px;
     margin: 48px 0 0 0;
     position: relative; 
@@ -136,7 +138,6 @@ button {
 }
   
 
-
 /* SERVICES */
 
 .box-services {
@@ -148,7 +149,6 @@ button {
 }
 
 /*  FOOTER */
-
 .footer {
     position: fixed;
     display: flex;
