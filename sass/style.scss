@@ -60,5 +60,40 @@ header {
     color: lightblue;
 }
 
+// FOOTER
+
+.footer {
+    position: fixed;
+    display: flex;
+    background-color: $color-three;
+}
+
+.wrapper-footer ul {
+    margin: 10px;
+    display: flex; 
+    padding: 10px;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    color: $color-two;
+    list-style-type: none;
+}
+
+.wrapper-footer ul li a {
+   color: $color-seven;
+   height: 35px;
+   width: 35px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: flex;
+   text-decoration: none;
+}
+
+ul a i {
+    margin-left: 11px; 
+    margin-top: 10px;
+    list-style-type: none;
+}
+
 
 
