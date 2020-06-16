@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: salmon;
 }
 
 li, a, button {
@@ -58,18 +57,15 @@ header {
 /*  FOOTER */
 
 .footer {
-    position: fixed;
     display: flex;
-    background-color: lightblue;
+    height: 200px;
 }
 
 .wrapper-footer ul {
-    margin: 10px;
     display: flex; 
-    padding: 10px;
-    justify-content: center;
+    justify-content:space-around;
     margin: 0;
-    padding: 10px;
+    padding-left: 200px;
     list-style-type: none;
 }
 
