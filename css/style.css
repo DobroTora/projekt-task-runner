@@ -61,13 +61,22 @@ header {
 /* SPLASH */
 .splash {
     height: 100vh;
+    width: 100vw;
     background: url("https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80");
-    background-position: center center;
     background-size: cover;
-    background-attachment: fixed; 
 }
-  
-  .splash i {
+
+.splash h3 {
+    padding-top: 100px;
+    color: #fff;
+}
+
+.splash h1 {
+    color: #fff;
+}
+
+
+.splash i {
     font-size: 30px;
     width: 60px;
     height: 60px;
@@ -75,7 +84,7 @@ header {
     color: grey;
     border-radius: 50%; }
   
-  .splash-inner {
+.splash-inner {
     position: absolute;
     width: 100%;
     top: 50%;
@@ -83,19 +92,18 @@ header {
     transform: translate(-50%, -50%); 
 }
   
-  h1 {
+h1 {
     position: relative;
     font-size: 55px;
     margin: 10px auto;
-    color: #fff; 
+    color: #000; 
 }
 
-  h3 {
-    padding-top: 100px;
+h3 {
     font-size: 35px;
     font-weight: 100;
     font-style: italic;
-    color: #fff;
+    color: #000;
 }
   
   .page-title {
@@ -147,6 +155,15 @@ button {
     flex-direction: column;
 }
 
+.services h1 {
+    padding-top: 80px;
+}
+
+.services h3 {
+    font-size: 25px;
+    padding-bottom: 80px;
+}
+
 .icon {
     border: 2px solid orange;
     border-radius: 50%;
@@ -171,11 +188,12 @@ button {
 }
 
 /*  FOOTER */
-.footer {
-    position: fixed;
+
+footer {
     display: flex;
-    height: 200px;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 .wrapper-footer ul {
