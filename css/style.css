@@ -187,6 +187,35 @@ button {
     flex: 0 0 33.333%;
 }
 
+/* PORTFOLIO */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.card {
+    max-width: 300px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h4 {
+    font-size: 22px;
+}
+
+.card p {
+    font-style: italic;
+}
+
+
 /*  FOOTER */
 
 footer {
@@ -209,6 +238,7 @@ footer {
    height: 35px;
    width: 35px;
    background-color: #bbb;
+   margin: 5px;
    border-radius: 50%;
    display: flex;
    text-decoration: none;
