@@ -137,7 +137,6 @@ button {
         cursor: pointer;
 }
   
-
 /* SERVICES */
 
 .box-services {
@@ -145,7 +144,30 @@ button {
 }
 
 .wrapper-services {
-    flex-direction: column; 
+    flex-direction: column;
+}
+
+.icon {
+    border: 2px solid orange;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    margin: 10px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.icon i {
+    font-size: 45px;
+    padding: 15px;
+    color: orange;
+}
+
+.box-services {
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    flex: 0 0 33.333%;
 }
 
 /*  FOOTER */
