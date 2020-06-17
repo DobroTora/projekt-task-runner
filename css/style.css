@@ -257,3 +257,17 @@ ul a i {
 .rights {
     padding-left: 50px;
 }
+
+
+@media (max-width: 767px) {  
+    .cards {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .card {
+        margin-top: 40px;
+    }
+}
